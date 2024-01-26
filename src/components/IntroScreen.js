@@ -83,7 +83,7 @@ const IntroScreen = () => {
       className={`${playfair.className} overflow-x-hidden h-screen w-screen relative`}
       ref={app}
     >
-      <div className="absolute h-full w-full bg-red-500">
+      <div className="absolute h-full w-full ">
         <div className="relative h-full w-full inset-0 overflow-hidden">
           <div className="absolute w-full h-full bg-gray-950 z-20 opacity-25"></div>
           <NextImage
